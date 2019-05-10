@@ -1,0 +1,18 @@
+Login package for Nodejs
+Morgan: npm install --save morgan
+
+To extract Reaquest body of an incoming request (e.g POST request), we need to install a package called "body-parser"
+: npm install --save body-parser
+
+To connect with the database, we need to install a database package called "Mongoose"
+:  npm install --save mongoose
+
+TO upload images and other form data e.g texts and files
+To be able to read incoming requests which holds form data which is a different content type.
+:npm install --save multer
+........"Multer is like 'body-parser', able to parse incoming bodies i.e form data bodies
+........It is an alternative to body-parser when dealing with bodies cannot be handle by body-parser
+
+
+To encrypt password
+::: npm install bcrypt
